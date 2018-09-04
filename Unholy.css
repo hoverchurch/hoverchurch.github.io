@@ -1,0 +1,103 @@
+html{
+    background: grey
+  
+}
+body{
+    font-family: sans-serif, helvetica, comic;
+    line-height: 1;
+    font-size: 20px;
+    text-align: center
+    
+}
+header{
+    background: rgb(255,0,0);
+    border-bottom: rgb(290,180,30) 10px solid;
+   min-height: 120px;
+ position:  sticky;
+ top: 0rem;
+ 
+
+
+}
+header h1{
+    float: left;
+}
+
+
+header a{
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none
+}
+header div{
+    color:rgb(290,180,30);
+}
+
+li{
+    display: inline;
+}
+nav{
+    float: right;
+    margin-top:50px;
+}
+header li{
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+#showcase h1{
+    color: yellow
+    
+}
+p{
+    color: white;
+     -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: darkred;
+}
+#hats{
+    margin-top: 20px;
+    
+}
+.hat{
+    float: left;
+    width: 50% ;
+}
+.hat h3{
+       color: white;
+     -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: darkred;
+}
+footer{
+    background-color:color ;
+
+        color: white;
+    
+   margin-top: 0px;
+   border-top:darkred 3px solid;
+
+}
+footer{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+
+}
+header a:hover{
+    color:rgb(290,180,30);
+   
+}
+.highlight{
+    color:rgb(290,180,30);
+    
+    
+    
+}
+footer a:hover{
+    color: blue
+    
+}
+.picture{
+    margin-top: 20px;
+}

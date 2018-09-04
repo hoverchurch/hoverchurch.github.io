@@ -1,0 +1,50 @@
+html{
+    background: grey
+}
+body{
+    font-family: sans-serif, helvetica, comic;
+    line-height: 1;
+    font-size: 20px;
+    text-align: center
+    
+}
+header{
+    background: rgb(255,0,0);
+    border-bottom: rgb(210,105,30) 10px solid;
+   min-height: 120px;
+
+ 
+
+
+}
+header h1{
+    float: left;
+}
+
+
+header a{
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none
+}
+header div{
+    color:rgb(210,105,30);
+}
+
+li{
+    display: inline;
+}
+nav{
+    float: right;
+    margin-top:50px;
+}
+header li{
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
+#showcase{
+    
+    background:url(DND people.jpg) no repeat -150px,-20px;
+}
