@@ -13,11 +13,14 @@ header{
     background: rgb(255,0,0);
     border-bottom: rgb(290,180,30) 10px solid;
    min-height: 120px;
- position:  sticky;
- top: 0rem;
- 
 
 
+
+
+}
+#sidebar{
+    float: right;
+  
 }
 header h1{
     float: left;
@@ -53,13 +56,16 @@ header li{
     
 }
 p{
+ position: relative;
+ top:100;
     background-size:cover;
   font-size:25px ;
     color: white;
           -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: darkgrey;
-position:relative;
- top: 120px;
+
+
+
 }
 #cool{
     bottom: px;
@@ -74,9 +80,11 @@ min-height: 700px;
     
 }
 .hat{
-    margin-top: 260px;
+    
     float: left;
     width: 25% ;
+ position: relative;
+ bottom: 300;
 }
 .hat h3{
        color: white;
